@@ -34,7 +34,7 @@ class vagrant::params {
     'Debian': {
       $package = 'vagrant'
       $package_basename = "vagrant_${version}_${arch}.deb"
-      $provider = 'dpkg'
+      $provider = 'apt'
       $download = true
     }
     'RedHat': {
